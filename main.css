@@ -1,0 +1,203 @@
+body {
+	color: black;
+	margin: 0;
+	
+}
+
+
+.name-header {
+	background: #53bf6b;
+	position: fixed;
+	width: 100%
+}
+#name {
+	text-align: center;
+	margin: auto;
+	padding: 6%;
+	-webkit-transition: padding 1s;
+	-moz-transition: padding 1s;
+	-ms-transition: padding 1s;
+	-o-transition: padding 1s;
+	transition: padding 1s;
+}
+
+.shrink-name-header {
+	padding: 1% !important;
+}
+
+.grid-item {
+	font-size 1.25rem;
+	webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 20px;
+	display: inline-block;
+	vertical-align: top;
+	width: 100%;
+}
+#my-name {
+	color: white;
+	font: 125%/1.75 Lustria,Georgia;
+	webkit-animation: .5s .25s fade backwards ease-out;
+	animation: .5s .25s fade backwards ease-out;
+	font-size: 400%;
+	-webkit-transition: font-size 1s;
+	-moz-transition: font-size 1s;
+	-ms-transition: font-size 1s;
+	-o-transition: font-size 1s;
+	transition: font-size 1s;
+}
+
+.shrink-my-name {
+	font-size: 250% !important;
+}
+
+#subtitle {
+	display: block;
+	font-size: 115%;
+	color: #767676;
+	text-transform: uppercase;
+	letter-spacing: .35em;
+	word-spacing: .5em;
+	margin: .5em 0;
+	webkit-animation: .5s .5s fade backwards ease-out;
+	animation: .5s .5s fade backwards ease-out;
+}
+
+.shrink-subtitle {
+	display: none !important;
+}
+
+#profile-picture {
+	float: left;
+	width: 20%;
+	margin-left: 50px;
+}
+#profile-pic {
+    width: 100%;
+    left: 3%;
+   z-index:0;
+	border: 2px solid #fff;
+	-webkit-transition: width 0.6s, top 0.6s 0.6s;
+	-moz-transition: width 0.6s, top 0.6s 0.6s;
+	-ms-transition: width 0.6s, top 0.6s 0.6s;
+	-o-transition: width 0.6s, top 0.6s 0.6s;
+	transition: width 0.6s, top 0.6s 0.6s;
+	margin-top: 18px;
+}
+
+
+#header {
+	padding: 0;
+	
+	color: white;
+	margin: -1.1rem 0;
+}
+.top-bar {
+	border-top: 2px solid #fff;
+	background: #3fa757;
+	text-align: center;
+	padding: 0;
+}
+
+.nav a {
+	font-size: 110%;
+	padding: 20px;
+	display: inline-block;
+	text-decoration: none;
+	color: inherit;
+	letter-spacing: .1em;
+}
+
+.nav-link {
+	display: inline-block;
+	height: 100%;
+	transition: background 0.5s ease;
+	
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+.nav-link:hover {
+	background: #318144;
+}
+#about-me {
+	background: url("dark_brick_wall.png");
+	padding: 420px 0 70px 0;
+}
+#work-experience {
+	background: url("scribble_light.png");
+	padding: 5% 0;	
+	color: #767676;
+}
+#side-projects {
+	background: url("escheresque_ste.png");
+	padding: 5% 0;	
+	color: #767676;
+}
+.subsection > .right {
+	padding: 0 15% 0 30%;
+	max-width: 55%;
+}
+.middle {
+	padding: 0 15% 0 15%;
+	max-width: 70%;
+}
+#about-me h1 {
+	color: #53bf6b;	
+}
+#work-experience h2 {
+	color: #3fa757;
+}
+h1 {
+	font-size: 20px;
+	line-height: 25px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
+}
+h2 {
+	font-size: 60px;
+	line-height: 25px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
+}
+#about-me > p {
+	color: #fff;
+}
+#work-experience > p {
+	color: #767676;
+}
+#work-experience img {
+	width: 25%;
+}
+
+#work-experience .right-logo {
+	text-align: right;
+}
+
+p {
+
+	font-size: 16px;
+	line-height: 25px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
+}
+
+.extra-padding {
+	padding: 100px 0 72px 0 !important;
+}
+
+@-webkit-keyframes fade {
+	from {
+		transform:translateY(.25em);
+		opacity:0
+	}
+}
+
+@keyframes fade {
+	from {
+		transform:translateY(.25em);
+		opacity:0
+	}
+}
