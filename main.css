@@ -271,7 +271,7 @@ p {
 	position: fixed;
 	display: inline-block;
 	right: 50px;
-	top: 50px;
+	top: 30px;
 }
 .one-icon {
 	display: inline-block;
@@ -303,4 +303,7 @@ p {
 		transform:translateY(.25em);
 		opacity:0
 	}
+}
+a {
+	text-decoration: none;
 }
