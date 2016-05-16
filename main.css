@@ -267,6 +267,26 @@ p {
 	font-size: 150%;
 	padding: 0 0 10px 0;
 }
+.contact-icon-block {
+	position: fixed;
+	display: inline-block;
+	right: 50px;
+	top: 50px;
+}
+.one-icon {
+	display: inline-block;
+	padding: 25px;
+	color: white;
+	-webkit-transition: color 0.3s;
+	-moz-transition: color 0.3s;
+	-ms-transition: color 0.3s;
+	-o-transition: color 0.3s;
+	transition: color 0.3s;
+	font-size: 150%;
+}
+.one-icon:hover {
+	color: #767676;
+}
 
 .contact-method:hover{
 	color: #3fa757;
