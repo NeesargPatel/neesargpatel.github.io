@@ -254,14 +254,22 @@ p {
 	width: 100%;
 }
 .contact-method {
+	font-family: 'Open Sans', sans-serif;
 	width: 26%;
 	text-align: center;
+	color: #404040;
 	padding: 3.3%;
-	background: white;
 	display: inline-block;
 }
 .logo-class {
 	width: 100%;
+	color: #404040;
+	font-size: 150%;
+	padding: 0 0 10px 0;
+}
+
+.contact-method:hover{
+	color: #3fa757;
 }
 @-webkit-keyframes fade {
 	from {
