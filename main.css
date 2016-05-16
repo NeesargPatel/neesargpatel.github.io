@@ -129,12 +129,30 @@ ul {
 #work-experience {
 	background: url("scribble_light.png");
 	padding: 5% 0;	
-	color: #767676;
+	color: #404040;
 }
 #side-projects {
 	background: url("escheresque_ste.png");
 	padding: 5% 0;	
-	color: #767676;
+	color: #f2f2f2;
+}
+#side-projects > h2 {
+	color: #6ac880;
+}
+.source-code-link {
+	text-decoration: none;
+	color: #0073cf;
+}
+
+.source-code-link:hover {
+	color: #f2f2f2;
+}
+
+.job-title {
+	font-size: 130%;
+}
+.job-time {
+	color: #737373;
 }
 .subsection > .right {
 	padding: 0 15% 0 30%;
@@ -166,7 +184,7 @@ h2 {
 	color: #fff;
 }
 #work-experience > p {
-	color: #767676;
+	color: #404040;
 }
 #work-experience img {
 	width: 25%;
@@ -176,7 +194,7 @@ h2 {
 	text-align: right;
 }
 
-p {
+.job-description {
 
 	font-size: 16px;
 	line-height: 25px;
@@ -184,10 +202,64 @@ p {
 	font-weight: 100;
 }
 
+p {
+	font-size: 16px;
+	line-height: 25px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
+}
+
+.job-description-list {
+	padding: 0 100px 60px 40px;
+}
+
 .extra-padding {
 	padding: 100px 0 72px 0 !important;
 }
+.screenshots {
+	display: inline-block;
+}
+.screenshots > img {
+	width: 20%;
+}
+#contact-me {
+	max-width: 864px;
+	margin: 0 auto;
+	padding: 50px 16px;
+	background: url("subtlenet2.png");
+	
+}
+#contact-me-wrapper {
+	background: url("subtlenet2.png");
+}
+#contact-me > h3 {
+	font-size: 68px;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	color: #404040;
+	margin: 0;
+	font-weight: 100;
+}
+#contact-me > p {
+	
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	color: #404040;
+	margin: 0;
+	font-weight: 100;
+}
 
+.contact-wrapper {
+	display: inline-block;
+	width: 100%;
+}
+.contact-method {
+	width: 26%;
+	text-align: center;
+	padding: 3.3%;
+	background: white;
+	display: inline-block;
+}
 @-webkit-keyframes fade {
 	from {
 		transform:translateY(.25em);
